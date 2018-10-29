@@ -1,8 +1,10 @@
 <h1>Prompt</h1>
 
 <pre>
-1. Write a Smartlink constructor function that is initialized with an auction ID in string form and a DOM element as parameters.
+1. Write a constructor function named Smartlink that is initialized with 2 parameters: a) An auction ID in string form; b) A DOM element.
+
 2. On initialization, validate that the auction ID is a valid integer. If it isn't, log a warning.
+
 3. Smartlink has a runAction() method that runs an AJAX request and returns a promise. On success, the request returns:
 {
   data: {
@@ -13,12 +15,18 @@
   }
 }
 4. Smartlink has a rewriteLink() method, which takes a URL and a string as params and updates its element's URL and text with those values.
+
 5. Write a Jstag constructor function. On initialization, it runs a method that finds all the Smartlinks on the page on initialization. Smartlink is in the form of `https://shop-links.co/123456789`, where 123456789 is the auction ID.
+
 6. For each Smartlink on the page, create an instance of the Smartlink object using the auction ID and DOM element.
+
 5. Call runAuction() for each of the Smartlink and use the returned data to update the Smartlink element.
   - Smartlink URL => destination URL
   - Smartlink text => "Product Name, $Price at Merchant Name".
-6. Don't rewrite the Smartlink if the auction ID wasn't valid.
+
+6. Don't rewrite the Smartlink if the auction ID isn't valid.
+
+7. Verify that your code is working, "SMARTLINK 1" and "SMARTLINK 2" should be overwritten with "Product Name, $Price at Merchant Name".
 </pre>
 
 <h1>Best contour and highlight kits</h1>
@@ -28,14 +36,14 @@
   totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
   Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur 
   magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia 
-  dolor sit amet, <a href="https://shop-links.co/1234567890">consectetur</a>, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore 
+  dolor sit amet, <a href="https://shop-links.co/1234567890">SMARTLINK 1</a>, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore 
   et dolore magnam aliquam quaerat voluptatem.
 </p>
 
 <p>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
   labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-  laboris nisi ut aliquip <a href="https://shop-links.co/98776543210">ex ea commodo consequat</a>. Duis aute irure dolor in reprehenderit in 
+  laboris nisi ut aliquip <a href="https://shop-links.co/98776543210">SMARTLINK 2</a>. Duis aute irure dolor in reprehenderit in 
   voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
   non proident, <a href="https://random.example/path/page1">sunt in culpa</a> qui officia deserunt mollit anim id est laborum.
 </p>
