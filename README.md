@@ -48,3 +48,7 @@
   - Smartlink text => "Product Name, $Price at Merchant Name".
 
 9. Don't rewrite the Smartlink if the auction ID isn't valid. Verify that your code is working, "SMARTLINK 1" and "SMARTLINK 2" should be overwritten with "Highlighter brush, $15.89 at Sephora".
+
+### Run instruction
+- In this directory: `$ python -m SimpleHTTPServer`
+- Open localhost:8000. Refresh page after updating code.
