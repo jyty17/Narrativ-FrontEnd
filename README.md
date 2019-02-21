@@ -28,7 +28,7 @@ Assign this DOM element to Smartlink `element` attribute.
 }
 ```
 
-4. Smartlink has a `rewriteLink(URL, linkText)` method, which takes two strings as params: a) URL; b) linkText. It updates the href and text of its element with these new values.
+4. Smartlink has a `rewriteLink(URL, linkText)` method, which takes two strings as parameters. It updates the href and text of its element with these new values.
 
 5. Write a constructor function named Jstag. It has a function called `findAllSmartlinks()` that is called on initialization.
 
