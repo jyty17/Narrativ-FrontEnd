@@ -1,5 +1,15 @@
-# Exercise prompt
+# Narrativ widget exercise
 
+### Instructions
+- Make a fork of this repository and clone it.
+
+- Please write your code in `script.js`. You are allowed to use ES6.
+
+- In this directory, run: `$ python -m SimpleHTTPServer`. Open localhost:8000 to preview `index.html`. Remember to refresh the page after updating the code.
+
+- To submit, please push the code to your fork and let me know.
+
+### Exercise prompt
 1. Write a constructor function named Smartlink that is initialized with 2 parameters:
   a) An auction ID in string form;
   b) A DOM element.
@@ -48,8 +58,4 @@ Assign this DOM element to Smartlink `element` attribute.
   - Smartlink href => destination URL
   - Smartlink text => "Product Name, $Price at Merchant Name".
 
-8. Don't rewrite the Smartlink if the auction ID isn't valid. Verify that your code is working, "SMARTLINK 1" and "SMARTLINK 2" should be overwritten with "Highlighter brush, $15.89 at Sephora".
-
-### Run instruction
-- In this directory: `$ python -m SimpleHTTPServer`
-- Open localhost:8000. Refresh page after updating code.
+8. Don't rewrite the Smartlink if the auction ID isn't valid. To verify that your code is working, check that "SMARTLINK 1" and "SMARTLINK 2" are overwritten with "Highlighter brush, $15.89 at Sephora". "INVALID SMARTLINK" and "RANDOM LINK" should not be updated.
